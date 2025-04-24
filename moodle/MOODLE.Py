@@ -1,6 +1,4 @@
 # 1. se hace un ciclo while para que el usuario ingrese el nombre del producto y se valida que no este vacio y que sea uno de los productos disponibles
-
-
 while True:
     Producto = input(" INGRRESE EL  NOMBRE DEL PRODUCTO : \nmanzana , \npera , \nbanano , \ndulces : \n")
     if Producto.strip() == "":
@@ -19,8 +17,6 @@ while True:
 cantidad = int(input("Ingrese la cantidad de los productos : \n"))
 Precio = float(input("Ingrese el precio del producto : \n"))
 Descuento = float(input("Ingrese el descuento del producto : \n"))
-print("quieres seguir comprando si o no? \n")
-products.append(Producto) 
     # 3. se hace la funcion que nos pide que calcule el precio total con descuento y se retorna el total
 def precio_total(cantidad, precio, descuento):
     if cantidad > 0 and precio > 0:
