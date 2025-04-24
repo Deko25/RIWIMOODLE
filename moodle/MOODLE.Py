@@ -1,5 +1,5 @@
 # 1. se hace un ciclo while para que el usuario ingrese el nombre del producto y se valida que no este vacio y que sea uno de los productos disponibles
-products =[]
+
 
 while True:
     Producto = input(" INGRRESE EL  NOMBRE DEL PRODUCTO : \nmanzana , \npera , \nbanano , \ndulces : \n")
